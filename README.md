@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`2.1.1-alpine`(*react-2.1.1-alpine/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/react-2.1.1-alpine/Dockerfile)
+- [`2.1.1-alpine`(*create-react-app-2.1.1-alpine/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/react-2.1.1-alpine/Dockerfile)
 
 # About
 
@@ -8,7 +8,7 @@ This container will have the items necessary to run the react-cli.
 
 # How to use this image
 
-### Create a `Dockerfile` in your project
+## Create a `Dockerfile` in your project
 
 ```dockerfile
 # Dockerfile
@@ -36,14 +36,17 @@ Using this via docker-compose:
 # docker-compose.yaml
 version: '3'
 services:
-  vue:
-    image: jonatasra/vue-cli
+  react:
+    image: jonatasra/react-cli
     command: npm start
     volumes:
       - .:/app
     ports:
       - 3000:3000
 ```
+
+# Image Variants
+The react-cli images come in many flavors, each designed for a specific use case.
 
 ## `jonatasra/react-cli:<version>-alpine`
 
