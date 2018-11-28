@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`2.1.1`(*2.1.1/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/2.1.1/Dockerfile)
+- [`2.1.1`(*2.0/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/2.0/Dockerfile)
 
 # About
 
