@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`2.1.1-alpine`(*create-react-app-2.1.1-alpine/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/react-2.1.1-alpine/Dockerfile)
+- [`2.1.1-alpine`(*create-react-app-2.1.1-alpine/Dockerfile*)](https://github.com/johnt1000/docker-react-cli/blob/create-react-app-2.1.1/Dockerfile)
 
 # About
 
